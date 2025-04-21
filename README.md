@@ -23,7 +23,7 @@ A modern and responsive e-commerce web application built with **React**, **Redux
 
 -   🛒 Product listing with images and categories
 -   📦 Add to cart and remove from cart
--   🧾 Place order functionality
+-   🧾 Place order functionality(soon)
 -   🔄 Fetches data from [FakeStoreAPI](https://fakestoreapi.com/)
 -   📱 Responsive UI
 -   🚀 Built using Redux Toolkit and TypeScript
