@@ -37,7 +37,7 @@ A modern and responsive e-commerce web application built with **React**, **Redux
 | Product Page | Cart Page |
 | ------------ | --------- |
 
-| ![Cart](./public/assets/preview2.png)
+| ![Cart](./public/assets/preview2.png) |
 | ![Checkout](./public/assets/preview3.png) |
 
 ---
