@@ -19,6 +19,7 @@ const Navbar: React.FunctionComponent = (): React.JSX.Element => {
 
     useEffect(() => {
         setMenuOpen(false);
+        setCartOpen(false);
     }, [location.pathname]);
 
     return (

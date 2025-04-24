@@ -19,6 +19,7 @@ const cartSlice = createSlice({
             } else {
                 state.items.push({ ...product, qty: 1 });
             }
+
             state.subtotal += product.price;
         },
         removeFromCart(state, action: PayloadAction<number>) {
@@ -34,8 +35,11 @@ const cartSlice = createSlice({
             state.items = [];
             state.subtotal = 0;
         },
+        updateSubtotal(state, action: PayloadAction<number>) {
+            state.subtotal = state.subtotal + action.payload;
+        },
     },
 });
 
 export default cartSlice.reducer;
-export const { addToCart, removeFromCart, clearCart } = cartSlice.actions;
+export const { addToCart, removeFromCart, clearCart, updateSubtotal } = cartSlice.actions;
